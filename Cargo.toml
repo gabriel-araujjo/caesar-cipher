@@ -1,0 +1,8 @@
+[package]
+name = "caesar"
+version = "0.1.0"
+authors = ["Gabriel <gabriel140492@gmail.com>"]
+
+[dependencies]
+unicode-normalization = "0.1.2"
+libc = "0.2.15"
