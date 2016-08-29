@@ -17,7 +17,7 @@ fn usage() {
     print!(
 r#"
 Caesar encrypter tool
-encrypt options:
+Encrypt options:
   -k, --key <key>            - specifies a key to encrypting or decrypting process.
                                  The key must be a number between 1(including)
                                  and 25(including).
@@ -34,8 +34,8 @@ Commands:
   decrypt                    - decrypts a message
 
 Usage:
-  caesar encrypt [-k <key>] [-i <clear_text>] [-o <cypher>]
-  caesar decrypt [-f] [-k <key>] [-i <cypher>] [-o <clear_text>]
+  caesar encrypt [-k <key>] [-i <clear_text>] [-o <cipher>]
+  caesar decrypt [-f] [-k <key>] [-i <cipher>] [-o <clear_text>]
 "#
     )
 }
@@ -109,13 +109,4 @@ fn main() {
         },
         _ => {},
     };
-
-//    println!("Key = {}", args.key);
-//
-//    println!("force = {}", args.force);
-//    let message = String::from("Gabriel Araújo");
-//    let cypher = caesar_encrypt(&message, 7u8).unwrap();
-//    println!("message = {}", message);
-//    println!("cypher = {}", cypher);
-//    println!("decrypted text = {}", caesar_decrypt(&cypher, 7u8).unwrap());
 }
