@@ -1,6 +1,6 @@
 # Caesar Cipher
 
-A simple tool to encrypt and decrypt with messages using Caesar Cipher
+A simple tool to encrypt and decrypt messages using Caesar Cipher
 
 ```
 Encrypt options:
