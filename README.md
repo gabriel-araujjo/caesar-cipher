@@ -8,9 +8,9 @@ Encrypt options:
                                  The key must be a number between 1(including)
                                  and 25(including).
                                  Default: 3
-  -o, --output <source_file> - sets the destiny output file.
+  -o, --output <destiny_file>- sets the destiny output file.
                                  Default: stdout
-  -i, --input <destny_file>  - sets the clear message source.
+  -i, --input <source_file>  - sets the clear message source.
                                  Default: stdin
   -f, --force                - forces decryptation (brute force) and shows all
                                  possible results.
